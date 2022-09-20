@@ -1,0 +1,26 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 2rem;
+  color: salmon;
+}
+
+.error h1 {
+  font-size: 5rem;
+}
+
+.error p {
+  font-size: 4rem;
+}
+
+.error p span {
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.error p span:hover {
+  text-decoration: none;
+}

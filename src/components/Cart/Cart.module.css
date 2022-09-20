@@ -1,0 +1,165 @@
+.cart {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 700px;
+  transform: translateY(-50%) translateX(100%);
+  padding: 2rem;
+  background-color: salmon;
+  color: whitesmoke;
+  border-left: 5px solid white;
+  transition: all 0.1s ease-in-out;
+}
+
+.top_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.top {
+  height: 15%;
+}
+
+.bottom {
+  height: 85%;
+}
+
+.open {
+  transform: translateY(-50%) translateX(0%);
+}
+
+.close_btn {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.close_icon {
+  width: 40px;
+  color: whitesmoke;
+}
+
+.cart h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.ordered_items {
+  height: 75%;
+  overflow-y: scroll;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ordered_item {
+  width: 100%;
+  padding: 1.4rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid whitesmoke;
+  border-radius: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.img_name,
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.img_name img {
+  width: 50px;
+  object-fit: contain;
+}
+
+.img_name h2 {
+  font-size: 2rem;
+  width: 200px;
+  cursor: pointer;
+}
+
+.img_name h2:hover {
+  color: #ffcccc;
+}
+
+.quantity p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon_minus,
+.icon_plus,
+.icon_delete {
+  width: 30px;
+  color: whitesmoke;
+  display: flex;
+}
+
+.price_subtotal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+
+.price_subtotal p {
+  font-size: 1.6rem;
+}
+
+.price_subtotal p span {
+  font-weight: 600;
+}
+
+.summary {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.total {
+  font-size: 1.8rem;
+  text-align: right;
+  margin-right: 3rem;
+}
+
+.total button {
+  color: salmon;
+  background-color: whitesmoke;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  font-weight: 700;
+  font-size: 2.4rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.total button:hover {
+  background-color: #e9e3e3;
+}
+
+.total p span {
+  font-weight: 700;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.empty h1 {
+  font-size: 2.4rem;
+}

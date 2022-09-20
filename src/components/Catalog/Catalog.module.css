@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  width: fit-content;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  gap: 6rem;
+}
+
+.product {
+  border-radius: 2rem;
+  background-color: salmon;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.6rem;
+  transition: all 0.2s;
+}
+
+.product:hover {
+  background-color: #fa968b;
+}
+
+.name {
+  font-size: 2rem;
+  color: whitesmoke;
+  padding: 0.2rem 0rem;
+}
+
+.product_image {
+  object-fit: contain;
+  border-radius: 2rem;
+  border: 4px solid whitesmoke;
+}

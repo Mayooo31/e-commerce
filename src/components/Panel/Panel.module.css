@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+  font-size: 2.4rem;
+  font-weight: 500;
+  align-items: center;
+}
+
+.container p {
+  font-size: 2.4rem;
+  padding: 0.4rem 1rem;
+  border-radius: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.container p:hover {
+  background-color: salmon;
+  color: whitesmoke;
+}
+
+.selected {
+  background-color: salmon;
+  color: whitesmoke;
+}

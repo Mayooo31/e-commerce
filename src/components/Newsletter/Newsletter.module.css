@@ -1,0 +1,72 @@
+.newsletter {
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  background-color: salmon;
+  border-radius: 7rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  color: whitesmoke;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+
+.newsletter h1 {
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+
+.newsletter p {
+  font-size: 2.4rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.newsletter input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  font-size: 3rem;
+  outline: none;
+  font-weight: 600;
+  color: salmon;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  letter-spacing: 1px;
+}
+
+.newsletter input::placeholder {
+  color: #fa8072b4;
+}
+
+.newsletter button {
+  font-size: 2.6rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: transparent;
+  color: whitesmoke;
+  border: 4px solid whitesmoke;
+  border-radius: 3rem;
+  padding: 2rem 10rem;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: whitesmoke;
+  color: salmon;
+}
+
+.newsletter button:active {
+  background-color: salmon;
+  color: whitesmoke;
+}
