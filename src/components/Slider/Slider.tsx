@@ -1,3 +1,7 @@
+import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+
+import { sliderData } from "../../data/data";
 import styles from "./Slider.module.css";
 import "../../global.css";
 
@@ -8,21 +12,27 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { sliderData } from "../../data/data";
-import { useNavigate } from "react-router-dom";
-
 const Slider = () => {
+  const [slidesPerView, setSlidesPerView] = useState<number>(3);
   const navigate = useNavigate();
+
+  const currWidth = window.screen.availWidth;
 
   const showProductHandler = (id: string) => {
     navigate(`mechanical-keyboards/${id}`);
   };
 
+  useEffect(() => {
+    if (currWidth <= 1200) {
+      setSlidesPerView(1);
+    }
+  }, []);
+
   return (
     <Swiper
       className={styles.swiper}
       spaceBetween={1}
-      slidesPerView={3}
+      slidesPerView={slidesPerView}
       autoplay={{ delay: 5000, disableOnInteraction: false }}
       speed={700}
       modules={[Navigation, Pagination, Autoplay]}

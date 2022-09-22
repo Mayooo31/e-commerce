@@ -21,6 +21,7 @@
 }
 
 .newsletter p {
+  padding: 0rem 1.5rem;
   font-size: 2.4rem;
   margin-top: 1rem;
   font-weight: 500;
@@ -69,4 +70,61 @@
 .newsletter button:active {
   background-color: salmon;
   color: whitesmoke;
+}
+
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+
+/* 1550px */
+@media (max-width: 96.87em) {
+  .newsletter {
+    width: 75%;
+  }
+}
+
+/* 800px */
+@media (max-width: 50em) {
+  .newsletter {
+    width: 90%;
+    border-radius: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  .newsletter h1 {
+    font-size: 3rem;
+  }
+  .newsletter p {
+    padding: 0rem 1.5rem;
+    font-size: 2rem;
+  }
+  .newsletter input {
+    width: 97%;
+    font-size: 2.4rem;
+  }
+}
+
+/* 500px */
+@media (max-width: 31.25em) {
+  .newsletter {
+    height: 350px;
+    width: 95%;
+    border-radius: 20rem;
+  }
+  .newsletter h1 {
+    font-size: 3rem;
+  }
+  .newsletter p {
+    font-size: 1.8rem;
+    padding: 0rem 3rem;
+  }
+  .newsletter input {
+    width: 97%;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+  }
+  .newsletter button {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+  }
 }

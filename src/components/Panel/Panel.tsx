@@ -40,7 +40,7 @@ const Panel = () => {
             >
               {category}
             </p>{" "}
-            {categoryArr.length - 1 !== index && "|"}
+            {categoryArr.length - 1 !== index && <span>|</span>}
           </Fragment>
         );
       })}

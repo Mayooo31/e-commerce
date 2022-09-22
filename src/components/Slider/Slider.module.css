@@ -32,3 +32,25 @@
   filter: brightness(85%);
   transition: all 0.3s ease-in;
 }
+
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+
+/* 650px */
+@media (max-width: 40.25em) {
+  .swiper {
+    width: 100%;
+    height: 400px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* 500px */
+@media (max-width: 31.25em) {
+  .swiper_slide h1 {
+    font-size: 3rem;
+    left: 20px;
+  }
+}

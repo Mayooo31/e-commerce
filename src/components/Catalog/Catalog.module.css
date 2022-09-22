@@ -37,3 +37,43 @@
   border-radius: 2rem;
   border: 4px solid whitesmoke;
 }
+
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+
+/* 1550px */
+@media (max-width: 96.87em) {
+  .container {
+    grid-template-columns: repeat(2, 450px);
+  }
+}
+
+/* 1100px */
+@media (max-width: 68.75em) {
+  .container {
+    grid-template-columns: repeat(2, 350px);
+  }
+}
+
+/* 850px */
+@media (max-width: 53.125em) {
+  .container {
+    grid-template-columns: repeat(1, 450px);
+  }
+}
+
+/* 550px */
+@media (max-width: 34.375em) {
+  .container {
+    grid-template-columns: repeat(1, 350px);
+    gap: 3rem;
+  }
+}
+
+/* 400px */
+@media (max-width: 25em) {
+  .container {
+    grid-template-columns: repeat(1, 310px);
+  }
+}

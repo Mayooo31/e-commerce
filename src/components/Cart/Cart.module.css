@@ -48,7 +48,7 @@
 
 .ordered_items {
   height: 75%;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding-right: 2rem;
   padding-bottom: 2rem;
 }

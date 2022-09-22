@@ -10,17 +10,21 @@ import Keyboards from "./pages/Keyboards";
 import Product from "./pages/Product";
 import Footer from "./components/Footer/Footer";
 
-import "./App.css";
 import Cart from "./components/Cart/Cart";
 
 const App = () => {
   const [openCart, setOpenCart] = useState<string>("");
+  const [openNavbar, setOpenNavbar] = useState<string>("");
 
   return (
     <Provider store={store}>
       <BrowserRouter>
         <Sale />
-        <Navbar setOpenCart={setOpenCart} />
+        <Navbar
+          setOpenCart={setOpenCart}
+          openNavbar={openNavbar}
+          setOpenNavbar={setOpenNavbar}
+        />
         <Cart setOpenCart={setOpenCart} openCart={openCart} />
         <Routes>
           <Route path="/" element={<Home />} />
