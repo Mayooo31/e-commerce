@@ -62,6 +62,8 @@
   border: 2px solid whitesmoke;
   border-radius: 1.4rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .img_name,
@@ -162,4 +164,24 @@
 
 .empty h1 {
   font-size: 2.4rem;
+}
+
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+
+/* 700px */
+@media (max-width: 43.75em) {
+  .cart {
+    width: 100%;
+  }
+}
+
+/* 500px */
+@media (max-width: 31.25em) {
+  .img_name h2 {
+    font-size: 1.8rem;
+    width: 200px;
+    cursor: pointer;
+  }
 }
