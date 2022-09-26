@@ -4,27 +4,27 @@ export const sliderData: { id: string; product: string; image: string }[] = [
   {
     id: "3",
     product: "Varmilo MIYA Pro",
-    image: "https://i.ibb.co/tQK18dr/red-white.jpg",
+    image: "https://i.ibb.co/Wng8JKp/red-white.jpg",
   },
   {
     id: "4",
     product: "Ducky Double Shot",
-    image: "https://i.ibb.co/KLBSFR1/double-shot.jpg",
+    image: "https://i.ibb.co/F3dfqWx/double-shot.jpg",
   },
   {
     id: "5",
     product: "Ducky Strawberry Frog",
-    image: "https://i.ibb.co/CnFdc6Z/frog.jpg",
+    image: "https://i.ibb.co/5Yc66XN/frog.jpg",
   },
   {
     id: "1",
     product: "Frozen Llama Mecha",
-    image: "https://i.ibb.co/Nrg21Wr/Llama.jpg",
+    image: "https://i.ibb.co/MBLYc4w/Llama.jpg",
   },
   {
     id: "2",
     product: "Varmilo MIYA Mac",
-    image: "https://i.ibb.co/8jJXrz0/mountain.jpg",
+    image: "https://i.ibb.co/9Zqxvnv/mountain.jpg",
   },
 ];
 
@@ -32,11 +32,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "1",
     product: "Frozen Llama Mecha",
-    image: "https://i.ibb.co/NVxRZkT/lama2.png",
+    image: "https://i.ibb.co/YXzQq8r/lama2.jpg",
     images: [
-      "https://i.ibb.co/mX5ky9G/lama1.jpg",
-      "https://i.ibb.co/Nrg21Wr/Llama.jpg",
-      "https://i.ibb.co/GFMqwg7/lama3.jpg",
+      "https://i.ibb.co/JChBG9r/lama1.jpg",
+      "https://i.ibb.co/MBLYc4w/Llama.jpg",
+      "https://i.ibb.co/Hqh8833/lama3.jpg",
     ],
     brand: ["Ducky"],
     type: "60%",
@@ -49,11 +49,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "2",
     product: "Varmilo MIYA Mac",
-    image: "https://i.ibb.co/Lny0gRz/mountain1.png",
+    image: "https://i.ibb.co/QbwzNBJ/mountain1.jpg",
     images: [
-      "https://i.ibb.co/8jJXrz0/mountain.jpg",
-      "https://i.ibb.co/nwQ8q9Z/mountain2.jpg",
-      "https://i.ibb.co/xDcMqBr/mountain3.jpg",
+      "https://i.ibb.co/9Zqxvnv/mountain.jpg",
+      "https://i.ibb.co/CPD70Lf/mountain2.jpg",
+      "https://i.ibb.co/qN5wBNt/mountain3.jpg",
     ],
     brand: ["Ducky", "Varmillo"],
     type: "65%",
@@ -66,11 +66,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "3",
     product: "Varmilo MIYA Pro",
-    image: "https://i.ibb.co/4KgDLyf/red-white1.png",
+    image: "https://i.ibb.co/vjPq4fH/red-white1.jpg",
     images: [
-      "https://i.ibb.co/tQK18dr/red-white.jpg",
-      "https://i.ibb.co/tKtvnwZ/red-white2.jpg",
-      "https://i.ibb.co/JnwvmSw/red-white3.jpg",
+      "https://i.ibb.co/4WPvrNg/red-white.jpg",
+      "https://i.ibb.co/gdsVzdg/red-white2.jpg",
+      "https://i.ibb.co/R3Lybt1/red-white3.jpg",
     ],
     brand: ["Ducky", "Varmillo"],
     type: "65%",
@@ -83,11 +83,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "4",
     product: "Ducky Double Shot",
-    image: "https://i.ibb.co/6HT4q5H/shot2.png",
+    image: "https://i.ibb.co/8zmspzc/shot2.jpg",
     images: [
-      "https://i.ibb.co/Tq5GCRm/shot1.jpg",
-      "https://i.ibb.co/KLBSFR1/double-shot.jpg",
-      "https://i.ibb.co/BnwXDYj/shot3.jpg",
+      "https://i.ibb.co/JRvFX7X/shot1.jpg",
+      "https://i.ibb.co/F3dfqWx/double-shot.jpg",
+      "https://i.ibb.co/MNqNbfS/shot3.jpg",
     ],
     brand: ["Ducky"],
     type: "60%",
@@ -100,11 +100,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "5",
     product: "Ducky Strawberry Frog",
-    image: "https://i.ibb.co/TR2ccDf/frog1.png",
+    image: "https://i.ibb.co/N2QwwVM/frog1.jpg",
     images: [
-      "https://i.ibb.co/CnFdc6Z/frog.jpg",
-      "https://i.ibb.co/2cvM1g3/frog2.jpg",
-      "https://i.ibb.co/wRWn5vT/frog3.jpg",
+      "https://i.ibb.co/5Yc66XN/frog.jpg",
+      "https://i.ibb.co/C9H5vbL/frog2.jpg",
+      "https://i.ibb.co/74Wr3Rq/frog3.jpg",
     ],
     brand: ["Ducky"],
     type: "60%",
@@ -117,11 +117,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "6",
     product: "Ducky Flare Star",
-    image: "https://i.ibb.co/2YKnSLK/star.jpg",
+    image: "https://i.ibb.co/zZJvFvj/star.jpg",
     images: [
-      "https://i.ibb.co/gy6CCtL/star1.jpg",
-      "https://i.ibb.co/Gx9FXx1/star2.jpg",
-      "https://i.ibb.co/yQ9W1zn/star3.jpg",
+      "https://i.ibb.co/2PBMD84/star1.jpg",
+      "https://i.ibb.co/qYqdjTb/star2.jpg",
+      "https://i.ibb.co/Xx8YfTH/star3.jpg",
     ],
     brand: ["Ducky", "Varmillo"],
     type: "65%",
@@ -134,11 +134,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "7",
     product: "Varmillo Eucalyptus",
-    image: "https://i.ibb.co/GJSm8vm/eucalyptus.jpg",
+    image: "https://i.ibb.co/82TRWHM/eucalyptus.jpg",
     images: [
-      "https://i.ibb.co/XY5NZHf/eucalyptus1.jpg",
-      "https://i.ibb.co/p26z9Kg/eucalyptus2.jpg",
-      "https://i.ibb.co/cbtwkKq/eucalyptus3.jpg",
+      "https://i.ibb.co/TcMmWSM/eucalyptus1.jpg",
+      "https://i.ibb.co/RzvNJmc/eucalyptus2.jpg",
+      "https://i.ibb.co/5xPjjxd/eucalyptus3.jpg",
     ],
     brand: ["Varmillo"],
     type: "65%",
@@ -151,11 +151,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "8",
     product: "Leopold Vapor",
-    image: "https://i.ibb.co/YpCCPYh/vapor.jpg",
+    image: "https://i.ibb.co/fHsKwRj/vapor.jpg",
     images: [
-      "https://i.ibb.co/YpCCPYh/vapor.jpg",
-      "https://i.ibb.co/1fXnmVs/vapor2.jpg",
-      "https://i.ibb.co/FWfftSs/vapor3.jpg",
+      "https://i.ibb.co/3RvTL0V/vapor1.jpg",
+      "https://i.ibb.co/8dZnmzT/vapor2.jpg",
+      "https://i.ibb.co/VM9DShG/vapor3.jpg",
     ],
     brand: ["Leopold"],
     type: "65%",
@@ -168,11 +168,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "9",
     product: "Leopold Black",
-    image: "https://i.ibb.co/QP3xWY0/black.jpg",
+    image: "https://i.ibb.co/25wL3mZ/black.jpg",
     images: [
-      "https://i.ibb.co/9TWn7Zt/black1.jpg",
-      "https://i.ibb.co/Nmsr9TD/black2.jpg",
-      "https://i.ibb.co/k1LMxZJ/black3.jpg",
+      "https://i.ibb.co/0fZfH5s/black1.jpg",
+      "https://i.ibb.co/xfGz1sH/black2.jpg",
+      "https://i.ibb.co/5KGsBVJ/black3.jpg",
     ],
     brand: ["Leopold"],
     type: "65%",
@@ -185,11 +185,11 @@ export const keyboardsData: KeyboardsDataType = [
   {
     id: "10",
     product: "Leopold Blue/Gray",
-    image: "https://i.ibb.co/C0XhXNg/blue.jpg",
+    image: "https://i.ibb.co/74rHVcY/blue.jpg",
     images: [
-      "https://i.ibb.co/SNzF1gT/blue1.jpg",
-      "https://i.ibb.co/M5zd67P/blue2.jpg",
-      "https://i.ibb.co/WVXbyLx/blue3.jpg",
+      "https://i.ibb.co/jfbWZWF/blue1.jpg",
+      "https://i.ibb.co/1v14K95/blue2.jpg",
+      "https://i.ibb.co/RPTpkY9/blue3.jpg",
     ],
     brand: ["Leopold"],
     type: "75%",
